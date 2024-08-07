@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+}
+
+nav > ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  color: black;
+}
+
+nav > div a:hover {
+  color: #414141;
+}
+
+nav > div button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+nav > div button:hover {
+  background-color: #45a049;
+}
